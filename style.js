@@ -95,27 +95,27 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: "PlayList MCK ｜Hãy Đeo Tai Nghe Để Trải Nghiệm Cảm Giác Hay Hơn",
-            path: "EM/PlayList MCK ｜Hãy Đeo Tai Nghe Để Trải Nghiệm Cảm Giác Hay Hơn.mp3"
+            path: "EM/list-mck.mp3"
         },
         {
             title: "Đánh Đổi thôi em",
-            path: "EM/Obito - Đánh Đổi ft. MCK.mp3"
+            path: "EM/danh-doi.mp3"
         },
         {
             title: "Anh Đã Ổn Hơn nhé",
-            path: "EM/ADOH.mp3"
+            path: "EM/adoh.mp3"
         },
         {
             title: "Em đang Buồn Hay Vui",
-            path: "EM/BUỒN HAY VUI - VSOUL x MCK x Obito x Ronboogz x Boyzed (Official Audio).mp3"
+            path: "EM/bhv.mp3"
         },
         {
             title: "Anh đã CHÌM SÂU vào em rồi",
-            path: "EM/Chìm Sâu - RPT MCK (feat. Trung Trần) ｜ Official Lyrics Video.mp3"
+            path: "EM/chimsau.mp3"
         },
         {
             title: "Mộng Yu Nha",
-            path: "EM/MỘNG YU - AMEE x MCK ｜ Official Music Video (from 'MỘNGMEE' album).mp3"
+            path: "EM/mong-yu.mp3"
         }
     ];
     
