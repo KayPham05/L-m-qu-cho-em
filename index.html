@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mở Lên Đi</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Thêm ngay sau thẻ body -->
+    <div class="music-only-background"></div>
+
+    <!-- Thêm vào ngay sau phần đầu body -->
+    <div class="music-section">
+        <audio id="backgroundMusic" crossorigin="anonymous">
+            <!-- Source sẽ được thêm từ JavaScript -->
+        </audio>
+
+        <!-- Thay thế phần điều khiển nhạc hiện tại -->
+        <div class="music-control">
+            <div class="music-player">
+                <button id="musicToggle" class="music-button">
+                    <span class="music-icon">🔊</span>
+                </button>
+                <div class="music-controls">
+                    <div class="track-info">
+                        <span id="currentTrackName">Tên bài hát</span>
+                    </div>
+                    <div class="playback-controls">
+                        <button id="prevTrack" class="control-button">⏮</button>
+                        <button id="musicToggle2" class="control-button">⏯</button>
+                        <button id="nextTrack" class="control-button">⏭</button>
+                    </div>
+                    <input type="range" id="musicSeeker" class="seeker" min="0" value="0" step="1">
+                    <div class="time-display">
+                        <span id="currentTime">0:00</span> / <span id="totalTime">0:00</span>
+                    </div>
+                    <div class="volume-control">
+                        <span class="volume-icon">🔉</span>
+                        <input type="range" id="volumeControl" class="volume" min="0" max="1" step="0.1" value="0.7">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thêm nút ẩn/hiện phong bì sau phần music-section -->
+    <div class="toggle-envelope-btn">
+        <button id="toggleEnvelopeBtn">Dành cho bé chỉ muốn nghe nhạc</button>
+    </div>
+
+    <div class="TieuDe"><h3>Ấn vào lá thư đi em!, a có thứ cho em này 💝</h3></div>
+    <div class="container">
+        <div class="christmas">
+            <div class="envelope" id="envelope">
+                <div class="front"></div>
+                <div class="card" id="card">
+                    <div class="text" id="letterContent">Gửi em bé Trang của anh<br>Cười thật nhiều ❤<br>Em nhé 🥰!<br>Anh yêu em ❤️</div>
+                </div>
+            </div>
+            <div class="hearts">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+                <div class="four"></div>
+                <div class="five"></div>
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+
+    <div class="floating-images">
+        <img src="EM/Em1.jpg" alt="Trái tim" class="floating-image">
+        <img src="EM/Em2.jpg" alt="Hoa" class="floating-image">
+        <img src="EM/Em3.jpg" alt="Ngôi sao" class="floating-image">
+        <img src="EM/Em4.jpg" alt="Trái tim" class="floating-image">
+        <img src="EM/Em5.jpg" alt="Hoa" class="floating-image">
+        <img src="EM/Em6.jpg" alt="Ngôi sao" class="floating-image">
+        <img src="EM/Em7.jpg" alt="Trái tim" class="floating-image">
+        <img src="EM/Em8.jpg" alt="Hoa" class="floating-image">
+        <img src="EM/Em9.jpg" alt="Ngôi sao" class="floating-image">
+        <img src="EM/Em10.jpg" alt="Trái tim" class="floating-image">
+        <img src="EM/Em11.jpg" alt="Hoa" class="floating-image">
+        <img src="EM/Em12.jpg" alt="Ngôi sao" class="floating-image">
+        <img src="EM/Em13.jpg" alt="Trái tim" class="floating-image">
+        <img src="EM/Em14.jpg" alt="Hoa" class="floating-image">
+    </div>
+    
+    <div class = "button-1">
+        <button id="changeContentButton">Đọc tâm thư tôi gửi cho em đi ^-^</button>
+    </div>
+
+    <!-- Thêm div popup cho nội dung thư sau thẻ button-1 -->
+    <div class="letter-popup" id="letterPopup">
+        <div class="letter-popup-content">
+            <span class="close-popup" id="closePopup">&times;</span>
+            <div class="letter-content" id="popupLetterContent">
+                <h3>Tâm thư của anh gửi đến em</h3>
+                <p>
+                    Những ngày này có lẽ em đang tất bật ôn bài, chuẩn bị cho kỳ thi sắp tới. Anh biết là rất khó, nhưng anh tin rằng em, người luôn mạnh mẽ, nỗ lực và đầy nghị lực, sẽ vượt qua tất cả và đạt được kết quả tốt nhất (4.0 cho anh😼 ).
+                </p>
+                <p>
+                    Anh chúc em thi thật tốt, thật suôn sẻ, mọi điều em mong đều thành hiện thực. Anh luôn tin vào em, tin vào sự thông minh và bản lĩnh của em hẹ hẹ ! (●'◡'●)
+                </p>
+                <p>
+                    Sắp phải tạm xa nhau rồi nên anh muốn gửi đến em một chút tâm tư, một chút tình cảm của anh dành cho em, người con gái mà anh yêu thương nhất trong cuộc đời này. 🥰🥰🥰
+                </p>
+                <p>
+                    Anh mong em luôn xinh đẹp, luôn yêu anh, gặp em có lẽ là may mắn hiện tại của anh, anh mong may mắn đó sẽ theo anh cả phần đời còn lại <3.
+                </p>
+                <p>
+                    Em là điều tuyệt vời nhất từng đến trong cuộc đời anh ( cho tới hiện tại nha 🫶), là người khiến anh muốn cố gắng mỗi ngày để trở thành phiên bản tốt hơn, để xứng đáng với tình cảm của em.
+                </p>
+                <p>
+                    Mỗi nụ cười của em là nguồn năng lượng của anh, mỗi tin nhắn em gửi là niềm vui trong lòng anh (he he !!!! ).
+                </p>
+                <p>
+                    Anh yêu cách em quan tâm, yêu cả những giận dổi vu vơ (đôi lúc khiến anh nổ banh đầu 😤😤), yêu những điều nhỏ bé làm nên em, em là duy nhất và đặc biệt (mê em vl !! 😘😘😘).
+                </p>
+                <br>
+                <i>
+                    "Mình cùng cố gắng nha" <br>
+                    "Kha"
+                </i>
+            </div>
+        </div>
+    </div>
+    
+    <script src="style.js"></script>
+</body>
+</html>
