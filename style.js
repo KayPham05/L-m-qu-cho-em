@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const playlist = [
         {
             title: "[Playlist] - Ghé Qua, Một Đời, 10 Ngàn Năm, Phép Màu",
-            path: "EM/[Playlist] - Ghé Qua, Một Đời, 10 Ngàn Năm, Phép Màu,.... ｜ Mùa Hạ Có Anh.mp3"
+            path: "em/playlist-ghe-qua-mot-doi-10-ngan-nam-phep-mau-mua-ha-co-anh.mp3"
         },
         {
             title: "PlayList MCK ｜Hãy Đeo Tai Nghe Để Trải Nghiệm Cảm Giác Hay Hơn",
